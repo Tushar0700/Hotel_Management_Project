@@ -2,14 +2,16 @@
 
 This project is a hotel management project which is created in C++ programming language in which we have information about the items or rooms we have, what food items the customer's order, and how many rooms are assigned to them. This project also inform us of the hotel's sales, remaining food stock, and the total collection for the day.
 
+Open Hotel_management.cpp file in any compiler.
+
 ---C++ Code---
 
 
 //Project - Hotel Management Services. where owner will enter the quantity i.e. stock and then the user have to enter the output.
 
+---
 #include<iostream>
 using namespace std;
-
 int main()
 {
 	int Qrooms=0,Qpasta=0,Qburger=0,Qnoodles=0,Qshake=0,Qchicken=0;
@@ -173,3 +175,5 @@ int main()
 
 	goto p;
 }
+
+---
